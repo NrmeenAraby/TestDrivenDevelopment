@@ -22,8 +22,7 @@ namespace Web.Controllers
         [HttpGet("Add/{a}/{b}")]
         public int Get(int a,int b)
         {
-           var calculator = new Calculator();
-           return calculator.Sum(a,b);
+            return new Calculator().Sum(a, b); 
         }
     }
 }

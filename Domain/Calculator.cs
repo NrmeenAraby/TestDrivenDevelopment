@@ -1,10 +1,15 @@
-﻿namespace Domain
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain
 {
     public class Calculator
     {
-        public int Sum(int a, int b)
-        {
-            return a +b;
-        }
+        public int Sum(int a, int b) => a + b;
+        
+        
     }
 }
